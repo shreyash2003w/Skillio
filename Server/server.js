@@ -36,6 +36,9 @@ app.use(router)
 // Error Middleware
 app.use(errorMiddleware);
 
+app.get("/",(req,res) =>{
+    return res.send("Server is running well...")
+})
 app.listen(PORT, ()=>{
     console.log(`Server is running on port: ${PORT}`)
 })
