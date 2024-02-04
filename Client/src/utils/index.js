@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL= "https://skillio-backend.onrender.com";
+const API_URL= "https://skillio-backend.onrender.com/api-v1";
 
 export const API = axios.create({
     baseURL:API_URL,
