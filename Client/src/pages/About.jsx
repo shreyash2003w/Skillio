@@ -8,11 +8,11 @@ const About = () => {
         <div className='w-full md:2/3 2xl:w-2/4'>
           <h1 className='text-3xl text-blue-600 font-bold mb-5'>About Us</h1>
           <p className='text-justify leading-7'>
-            Microsoft Corporation and its contributors are available at
-            http://www.microsoft.com and at http://www.microsoft.com for more
-            information about the contributors and contributors to the Microsoft
-            Corporation and its contributors to the Microsoft Corporation and
-            its contributors to the Microsoft Corporation
+                     Welcome to Skillio, the premier job posting platform designed to connect talented individuals with exciting career opportunities. Our mission is to simplify the job search process for both employers and job seekers, fostering a seamless and efficient recruitment experience.
+
+At Skillio, we understand the challenges of finding the right job or the perfect candidate. With a commitment to excellence, we have created a user-friendly and innovative platform that streamlines the recruitment process, making it easier for employers to find top-tier talent and for job seekers to discover their dream careers.
+
+Our platform is built on the principles of transparency, accessibility, and efficiency. We believe that everyone deserves an equal opportunity to pursue their professional aspirations, and we strive to create a level playing field for both employers and job seekers.
           </p>
         </div>
         <img src={JobImg} alt='About' className='w-auto h-[300px]' />
@@ -20,11 +20,7 @@ const About = () => {
 
       <div className='leading-8 px-5 text-justify'>
         <p>
-          Welcome to Skillio, the premier job posting platform designed to connect talented individuals with exciting career opportunities. Our mission is to simplify the job search process for both employers and job seekers, fostering a seamless and efficient recruitment experience.
-
-At Skillio, we understand the challenges of finding the right job or the perfect candidate. With a commitment to excellence, we have created a user-friendly and innovative platform that streamlines the recruitment process, making it easier for employers to find top-tier talent and for job seekers to discover their dream careers.
-
-Our platform is built on the principles of transparency, accessibility, and efficiency. We believe that everyone deserves an equal opportunity to pursue their professional aspirations, and we strive to create a level playing field for both employers and job seekers. Whether you are a small startup looking to expand your team or an individual seeking a new career path, Skillio is here to empower you.
+ Whether you are a small startup looking to expand your team or an individual seeking a new career path, Skillio is here to empower you.
 
 What sets us apart is our dedication to user experience. Our intuitive interface and powerful search algorithms ensure that employers can quickly find the best candidates, while job seekers can easily navigate through a vast array of job listings to find the perfect match. We prioritize simplicity without compromising on the depth of information available, making the entire process straightforward and effective.
 
